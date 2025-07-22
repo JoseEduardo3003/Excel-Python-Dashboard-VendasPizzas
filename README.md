@@ -7,7 +7,7 @@ Projeto de análise de vendas de uma pizzaria fictícia baseado em dados forneci
 
 - **Ferramentas utilizadas**: Python (pandas, openpyxl), Microsoft Excel
 - **Foco**: Faturamento, performance por tipo/tamanho de pizza, horários de pico
-- **Produto final**: Dashboard interativo em Excel
+- **Produto final**: Dashboard em Excel
 
  ---
 
@@ -22,7 +22,7 @@ Projeto de análise de vendas de uma pizzaria fictícia baseado em dados forneci
 📄 Script: [`scripts/limpeza_dados_pizzaria.py`](./scripts/vendas-pizza.ipynb)
 
 ### 2. Análise e Dashboard (Excel)
-- Tabelas dinâmicas
+- Tabelas dinâmicas e funções (PROCV,SOMASE,etc)
 - Gráficos de linha, barras e pizza
 - KPIs com caixas e ícones
 - Formatação condicional

@@ -40,6 +40,7 @@ Projeto de análise de vendas de uma pizzaria fictícia baseado em dados forneci
 - Cálculo de colunas auxiliares (faturamento por pizza, horário etc.)
 
 📄 Script: [`scripts/limpeza_dados_pizzaria.py`](./scripts/vendas-pizza.ipynb)
+![Dashboard Excel](imagem_dashboard/printcodigo.PNG)
 
 ### 2. Análise e Dashboard (Excel)
 - Tabelas dinâmicas e funções (PROCV,SOMASE,etc)

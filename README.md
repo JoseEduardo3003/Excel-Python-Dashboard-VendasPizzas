@@ -11,6 +11,26 @@ Projeto de análise de vendas de uma pizzaria fictícia baseado em dados forneci
 
  ---
 
+## 📑 Dicionário de Dados
+
+| Tabela          | Campo              | Descrição                                                                                                                                            |
+| --------------- | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `orders`        | `order_id`         | Identificador único para cada pedido feito por uma mesa.                                                                                             |
+| `orders`        | `date`             | Data em que o pedido foi realizado (inserido no sistema antes do preparo e do serviço).                                                              |
+| `orders`        | `time`             | Hora em que o pedido foi realizado (inserido no sistema antes do preparo e do serviço).                                                              |
+| `order_details` | `order_details_id` | Identificador único para cada pizza registrada dentro de um pedido (pizzas iguais aparecem na mesma linha com aumento na quantidade).                |
+| `order_details` | `order_id`         | Chave estrangeira que relaciona os detalhes do pedido com o pedido em si.                                                                            |
+| `order_details` | `pizza_id`         | Chave estrangeira que liga a pizza aos seus detalhes (como tamanho e preço).                                                                         |
+| `order_details` | `quantity`         | Quantidade de cada pizza de mesmo tipo e tamanho pedida no mesmo pedido.                                                                             |
+| `pizzas`        | `pizza_id`         | Identificador único para cada pizza (definido por tipo + tamanho).                                                                                   |
+| `pizzas`        | `pizza_type_id`    | Chave estrangeira que relaciona a pizza ao seu tipo geral.                                                                                           |
+| `pizzas`        | `size`             | Tamanho da pizza (Small, Medium, Large, X Large, ou XX Large).                                                                                       |
+| `pizzas`        | `price`            | Preço da pizza em dólares (USD).                                                                                                                     |
+| `pizza_types`   | `pizza_type_id`    | Identificador único para cada tipo de pizza.                                                                                                         |
+| `pizza_types`   | `name`             | Nome da pizza como mostrado no cardápio.                                                                                                             |
+| `pizza_types`   | `category`         | Categoria do cardápio à qual a pizza pertence (Classic, Chicken, Supreme ou Veggie).                                                                 |
+| `pizza_types`   | `ingredients`      | Ingredientes separados por vírgula conforme o cardápio. Todas incluem queijo mussarela, mesmo que não mencionado, e molho de tomate, salvo exceções. |
+
 ## 🧼 Etapas do Projeto
 
 ### 1. Tratamento de Dados (Python)

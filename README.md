@@ -1,5 +1,5 @@
 # 🍕 Projeto: Análise de Vendas - Pizzaria (Python/Excel)
-Projeto de análise de vendas de uma pizzaria fictícia baseado em dados fornecidos pela Maven Analytics. O objetivo foi extrair insights relevantes a partir de um processo completo de tratamento, análise e visualização de dados, utilizando Python e Microsoft Excel.
+Este projeto simula a atuação de um analista de dados em uma pizzaria fictícia, com foco na extração de insights a partir do histórico de pedidos. Utilizei Python para limpeza e manipulação dos dados e Excel para visualização dos principais indicadores de vendas.
 
 ---
 

@@ -1,0 +1,53 @@
+## 📘 Dicionário de Dados
+
+### 🛍️ Tabela: Pedidos 
+
+| Campo           | Descrição                                          |
+|-----------------|----------------------------------------------------|
+| id_pedido       | ID único de cada pedido                            |
+| data_pedido     | Data em que o pedido foi realizado                 |
+| hora            | Hora em que o pedido foi realizado                 |
+| qtd_pizzas      | Quantidade de pizzas no pedido                     |
+
+### 🛍️ Tabela: Detalhes_Pedido
+
+| Campo           | Descrição                                          |
+|-----------------|----------------------------------------------------|
+| id_pedido       | ID único de cada pedido                            |
+| id_pizza        | ID único que liga a pizza aos seus detalhes        |
+| tamanho         | Tamanho da Pizza                                   |
+| nome_da_pizza   | Nome da Pizza como mostrado no cardápio            |
+
+
+### 🛍️ Tabela: Pizzas
+
+| Campo           | Descrição                                          |
+|-----------------|----------------------------------------------------|
+| id_pizza        | ID único que liga a pizza aos seus detalhes        |
+| id_tipo_pizza   | ID único relaciona a pizza ao seu tipo geral       |
+| nome_da_pizza   | Nome da Pizza como mostrado no cardápio            |
+| tamanho         | Tamanho da Pizza                                   |
+| preço           | Preço da Pizza                                     |
+
+### 🛍️ Tabela: Tipos_Pizzas
+
+| Campo           | Descrição                                          |
+|-----------------|----------------------------------------------------|
+| id_tipo_pizza   | ID único relaciona a pizza ao seu tipo geral       |
+| nome_da_pizza   | Nome da Pizza como mostrado no cardápio            |
+| nome_da_pizza_br| Nome da Pizza traduzido                            |
+| categoria       | Categoria do cardápio à qual a pizza pertence      |
+
+### 🛍️ Tabela: Vendas
+
+| Campo           | Descrição                                          |
+|-----------------|----------------------------------------------------|
+| id_pedido       | ID único de cada pedido                            |
+| id_pizza        | ID único que liga a pizza aos seus detalhes        |
+| nome_da_pizza_br| Nome da Pizza traduzido                            |
+| quantidade      | Quantidade da pizza específica no pedido           |
+|faturamento_por_venda| Receita total por pizza no pedido              |
+
+
+
+

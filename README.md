@@ -31,6 +31,17 @@ Este projeto simula a atuação de um analista de dados em uma pizzaria fictíci
 | `pizza_types`   | `category`         | Categoria do cardápio à qual a pizza pertence (Classic, Chicken, Supreme ou Veggie).                                                                 |
 | `pizza_types`   | `ingredients`      | Ingredientes separados por vírgula conforme o cardápio. Todas incluem queijo mussarela, mesmo que não mencionado, e molho de tomate, salvo exceções. |
 
+## 📚 Dicionário de Dados (resumo)
+Este projeto usa 5 tabelas principais:
+
+- **fVendas**: dados de pedidos, produtos, datas e moeda.
+- **dClientes**: dados demográficos dos clientes.
+- **dProdutos**: especificações de produtos e categorias.
+- **dLojas**: localização e tamanho das lojas.
+- **dConversaoMoeda**: taxa de câmbio em relação ao USD.
+
+Para o dicionário completo, veja [aqui](./projeto_final/dicionario_varejo.txt).
+
 ## 🧼 Etapas do Projeto
 
 ### 1. Tratamento de Dados (Python)

@@ -34,13 +34,13 @@ Este projeto simula a atuação de um analista de dados em uma pizzaria fictíci
 ## 📚 Dicionário de Dados (resumo)
 Este projeto usa 5 tabelas principais:
 
-- **fVendas**: dados de pedidos, produtos, datas e moeda.
-- **dClientes**: dados demográficos dos clientes.
-- **dProdutos**: especificações de produtos e categorias.
-- **dLojas**: localização e tamanho das lojas.
-- **dConversaoMoeda**: taxa de câmbio em relação ao USD.
+- **Pedidos**: dados de pedidos, data, hora e quantidade de pizzas.
+- **Detalhes_Pedido**: informações sobre as pizzas presentes em cada pedido.
+- **Pizzas**: informações gerais sobre as pizzas (tamanho, preço, etc).
+- **Tipos_Pizzas**: informações específicas sobre cada pizza + tradução do nome.
+- **Vendas**: junção das tabelas para analisar as vendas.
 
-Para o dicionário completo, veja [aqui](./projeto_final/dicionario_varejo.txt).
+Para o dicionário completo, veja [aqui](./entrega/dicionario_pizzaria.txt).
 
 ## 🧼 Etapas do Projeto
 
